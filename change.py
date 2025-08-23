@@ -1,9 +1,11 @@
-def change():
-    print("Ingresar gasto:")
-    gasto = float(input())
-
-    print("dinero recibido:")
-    pagado = float(input())
+def change():   
+    gasto = 23.75
+    pagado = 100
+ 
+    print ("Gasto ingresado: ")
+    print (f"{gasto}")
+    print ("Dinero recibido: ")
+    print (f"{pagado}")
 
     vuelto = pagado - gasto
 
