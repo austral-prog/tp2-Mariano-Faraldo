@@ -1,13 +1,9 @@
 def ada():
-    first_name = "AdA "
+    first_name = "AdA"
     last_name = "LoVeLAce"
-    Full_name = f" {first_name} {last_name}"
-    print (Full_name.lower())
-    print (Full_name)
-    print (Full_name.upper())
-    print ("\t" + Full_name.lower())
+    name_completo = first_name + " " + last_name 
+    print(name_completo.lower())
+    print(name_completo.title())
+    print(name_completo.upper())
+    print("\t" + name_completo.lower())
 ada()
-
-# Mariano Faraldo
-
-
